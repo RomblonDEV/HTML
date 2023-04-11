@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Employee Interests Survery Form</h1>
+    <form action="">
+        <label for="fname">Enter your Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="dept">Enter your Department</label>
+        <input type="text" id="dept" name="dept"><br><br>
+        <label for="about">Tell us a little about yourself</label>
+        <textarea name="about" id="about" cols="30" rows="8"></textarea><br><br>
+        <div class="formbody">
+            <label>Do you exercise at home?</label>
+            <input type="radio" name="buttons" id="yes" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="buttons" id="no" value="No">
+            <label for="yes">No</label>
+            <p>How do you like to read about your favorite topics?</p>
+            <input type="checkbox" id="topics1" name="topics1" value="Book">
+            <label for="topics1"> Books</label>
+            <input type="checkbox" id="topics2" name="topics2" value="Online Resources">
+            <label for="topics2"> Online Resources</label>
+            <input type="checkbox" id="topics3" name="topics3" value="Phone">
+            <label for="topics3"> Phone Apps</label>
+            <input type="checkbox" id="topics4" name="topics4" value="Magazine">
+            <label for="topics4"> Magazine</label> <br><br>
+            <label for="movie">What Genre of Movies do you like</label>
+            <select name="movie" id="movie">
+            <option value="horror">Horror</option>
+            <option value="comedy">Comedy</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="supernatural">Supernatural</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </div>
+        
+    </form>
+</body>
+</html>

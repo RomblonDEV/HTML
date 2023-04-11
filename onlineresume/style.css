@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 70%;
+    background: #FAF9F6;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #E2DFD2;
+}
+
+.topinfo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bodyinfo {
+    margin-top: 10px;
+}
+h3 {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 70px;
+}
+
+ul {
+    padding-left: 120px;
+}
